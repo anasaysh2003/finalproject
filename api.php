@@ -1,12 +1,8 @@
-Api web :<?php
+<?php
 class DbHelper{
 
 
     private $conn;
-//    public function __construct()
-//    {
-//        createDbConnection();
-//    }
 
     function createDbConnection(){
 try{
